@@ -1,0 +1,1 @@
+Teste em equipe de um sistema de apredizado de lingua portuguesa
