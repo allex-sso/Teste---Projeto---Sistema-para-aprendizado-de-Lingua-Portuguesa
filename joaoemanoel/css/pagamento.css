@@ -290,11 +290,9 @@ body {
   width: 194px;
 }
 
-.input-check-servico-desconto{
+.input-check-desconto{
   width: 18px;
   height: 18px;
-  border: 2px solid #746E6E;
-  border-radius: 50%;
 }
 
 .valor-total{
