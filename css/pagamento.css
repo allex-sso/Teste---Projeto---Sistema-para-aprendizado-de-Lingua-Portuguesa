@@ -155,8 +155,8 @@ body {
 
 .terceiro-card{
   display: flex;
-    border: 1px solid #666;
-    padding: 35px 20px 55px 7px;
+  border: 1px solid #666;
+  padding: 30px 20px 36px 7px;
   gap: 95px;
 }
 
