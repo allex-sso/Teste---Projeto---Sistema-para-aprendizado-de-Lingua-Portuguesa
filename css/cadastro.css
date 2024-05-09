@@ -244,9 +244,10 @@ body {
   gap: 16px;
 }
 
-.container-all label{
+.container-all label, span{
   font-size: 15px;
   font-weight: 500;
+  font-family: "Roboto Condensed";
 }
 
 .tam-input-data{
@@ -281,10 +282,17 @@ body {
 .btn-final{
   display: flex;
   align-items: center;
-  width: 115px;
+  width: 140px;
   background-color: #007D94;
   justify-content: center;
   gap: 3px;
-  
+  padding: 10px;
+  margin-top: 16px;
 }
 
+.text-btn-final{
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
