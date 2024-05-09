@@ -272,3 +272,19 @@ body {
   gap: 10px;
 }
 
+.container-btn-final{
+  display: flex;
+  gap: 10px;
+  height: 40;
+}
+
+.btn-final{
+  display: flex;
+  align-items: center;
+  width: 115px;
+  background-color: #007D94;
+  justify-content: center;
+  gap: 3px;
+  
+}
+
