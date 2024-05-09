@@ -199,3 +199,76 @@ body {
     display: flex;
     gap: 7px;
 }
+
+.tam-input-three{
+  width: 570px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+.tam-input-telefone{
+  width: 282px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+.container-matricula-name{
+  gap: 3px;
+}
+
+.teste{
+  border: 1px solid #666;
+  border-radius: 4px;
+  width: 976px;
+
+}
+
+.tam-input-nome-curso{
+  width: 600px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+.tam-input-turma{
+  width: 323px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+.gap-one-line{
+  margin: 1px 13px 0px 13px;
+  gap: 16px;
+}
+
+.container-all label{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.tam-input-data{
+  width: 179px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+.tam-input-sala{
+  width: 440px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+.gap-two-line{
+  margin: 0px 13px 10px 13px;
+  gap: 16px;
+}
+
+.gap-three-line{
+  gap: 10px;
+}
+
