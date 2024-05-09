@@ -296,3 +296,21 @@ body {
   font-size: 20px;
   color: white;
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  background-image: url("../images/img-cadastro/Icone\ Calendario.svg"); 
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  background-size: 15px; 
+  cursor: pointer;
+}
+
+input[type="date"]::-webkit-datetime-edit-text,
+input[type="date"]::-webkit-datetime-edit-month-field,
+input[type="date"]::-webkit-datetime-edit-day-field,
+input[type="date"]::-webkit-datetime-edit-year-field {
+    color: transparent;
+}
+
