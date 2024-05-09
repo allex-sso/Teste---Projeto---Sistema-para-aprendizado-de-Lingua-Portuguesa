@@ -261,3 +261,14 @@ input {
 .logar-com img {
   padding-top: 10px;
 }
+
+.redes-sociais{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.facebook{
+  width: 24px;
+  height: 24px;
+}
