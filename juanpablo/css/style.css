@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:24px ;
+    padding-bottom:24px ;
+}
+
+.geral{
+    display: flex;
+    gap: 66px;
+    
+    width: 1200px; 
+}
+
+.padrao-menu a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration:none;
+    font-family: 'Roboto Condensed';
+    font-size: 15px;
+    font-weight: 500;
+    color: #666666;
+}
+
+.padrao-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.logo{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.botoes{
+    display: flex;
+    gap:13px ;
+    font-family: 'Roboto Condensed';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.botoes a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cadastro{
+    border: 1px solid #29A743;
+    background-color: #29A743;
+    width: 124px;
+    height: 37px;   
+}
+
+.entrar{
+    border: 1px solid #007AFD;
+    background-color: #007AFD;
+    width: 124px;
+    height: 37px;
+}
+
+.teste{
+    background-color: rgb(#007D94);
+}
+
+section{
+    background-image: linear-gradient(to left, #00829A, #002C34);
+    height: calc(100vh-112px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo{
+    padding-left: 82px;
+}
+
+.img-principal{
+    height: calc(100vh-112px);
+}
+
+.title{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.intro{
+    font-family: 'Roboto Condensed';
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    border: 1px solid #29A743;
+    background-color: #29A743;
+    width: 360px;
+    text-decoration: none;
+}
