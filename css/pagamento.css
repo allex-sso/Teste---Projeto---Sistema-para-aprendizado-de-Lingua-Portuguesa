@@ -322,14 +322,19 @@ body {
   padding: 17px 0px 16px 17px;
 }
 
-#one-input-checkbox-cards{
+.one-input-checkbox-cards{
   margin: auto;
 }
 
-#two-input-checkbox-cards{
-  margin: auto;
+.teste{
+  width: 23px;
+  height: 23px;
+  border: 1px solid #666;
+  border-radius: 2px;
 }
 
-#terceiro-input-checkbox-cards{
-  margin: auto;
+.teste-two{
+  width: 1px;
+  height: 1px;
+  border: 1px solid black;
 }
