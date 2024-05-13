@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Irish+Grover&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Irish+Grover&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Irish+Grover&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   padding: 0;
@@ -34,7 +34,7 @@ body {
 }
 
 .back-mode {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .home-vertical-one {
@@ -63,18 +63,18 @@ body {
 }
 
 .home-vertical-two {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 41px 0px 60px;
-    font-family: "Roboto Condensed";
-    font-weight: 500;
-    font-size: 15px;
-    background-color: #007d94;
-    height: 58px;
-    align-items: center;
-    color: white;
-  }
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 41px 0px 60px;
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #007d94;
+  height: 58px;
+  align-items: center;
+  color: white;
+}
 
 /* fim parte menu-lateral e vertical */
 
@@ -88,157 +88,170 @@ body {
   height: calc(100vh - 195px);
 }
 
-.all-btn{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 30px;
+.all-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
 }
 
 .btn-base {
-    font-family: "Roboto";
-    font-size: 15px;
-    font-weight: 500;
-    width: 256px;
-    height: 43px;
-    display: flex;
-    align-items: center;
-    padding-left: 18px;
-    cursor: pointer;
-  }
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 500;
+  width: 256px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+  cursor: pointer;
+}
 
-.btn-base p{
+.btn-base p {
   color: white;
 }
 
-.btn-facebook{
-    background-color: #335A9E;
-    gap: 25px;
+.btn-facebook {
+  background-color: #335a9e;
+  gap: 25px;
 }
 
-.btn-google{
-    background-color: #F03B2C;
-    gap: 25px;
+.btn-facebook:hover {
+  background-color: #195ac9;
 }
 
-.btn-mac{
-    background-color: #F58634;
-    gap: 25px;
+.btn-google {
+  background-color: #f03b2c;
+  gap: 25px;
 }
 
-.separator-ou{
-    height: 1px;
-    background-color: #666;
-    text-align: center;
-    padding: 0px 425px;
-    margin-bottom: 28px;
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 20px;
+.btn-google:hover {
+  background-color: #ca2415;
 }
-  
-.separator-ou span{
+
+.btn-mac {
+  background-color: #f58634;
+  gap: 25px;
+}
+
+.btn-mac:hover {
+  background-color: #f17115;
+}
+
+.separator-ou {
+  height: 1px;
+  background-color: #666;
+  text-align: center;
+  padding: 0px 425px;
+  margin-bottom: 28px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.separator-ou span {
   background-color: white;
   position: relative;
   top: -0.5em;
   padding: 0 45px;
 }
 
-.container-form{
-    width: 966px;
-    font-family: "Roboto";
-    font-family: 15px;
-    font-weight: 500;
-    color: #666;
+.container-form {
+  width: 966px;
+  font-family: "Roboto";
+  font-family: 15px;
+  font-weight: 500;
+  color: #666;
 }
 
-.container-all{
-    display: flex;
-    align-items: center;
-    padding-top: 10px;
+.container-all {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
 }
 
-.color-mod{
-    color: red;
+.color-mod {
+  color: red;
 }
 
-.container-input{
-    display: flex;
-    flex-direction: column;
+.container-input {
+  display: flex;
+  flex-direction: column;
 }
 
-.container-input-dir{
-    padding-left: 26px;
+.container-input-dir {
+  padding-left: 26px;
 }
 
-.container-checkbox{
-    display: flex;
-    padding-top: 18px;
-    padding-left: 26px;
-    gap: 33px;
+.container-checkbox {
+  display: flex;
+  padding-top: 18px;
+  padding-left: 26px;
+  gap: 33px;
 }
 
-.tam-input-one{
-    width: 761px;
-    height: 27px;
-    border: 1px solid #666;
-    border-radius: 4px;
+.tam-input-one {
+  width: 761px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
 }
 
-.tam-input-one{
-    width: 761px;
-    height: 27px;
-    border: 1px solid #666;
-    border-radius: 4px;
+.tam-input-one {
+  width: 761px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
 }
 
-.tam-input-two{
-    width: 185px;
-    height: 27px;
-    border: 1px solid #666;
-    border-radius: 4px;
+.tam-input-two {
+  width: 185px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
 }
 
-.separtor-line-three{
-    display: flex;
-    gap: 7px;
+.separtor-line-three {
+  display: flex;
+  gap: 7px;
 }
 
-.tam-input-three{
+.tam-input-three {
   width: 570px;
   height: 27px;
   border: 1px solid #666;
   border-radius: 4px;
 }
 
-.tam-input-telefone{
+.tam-input-telefone {
   width: 282px;
   height: 27px;
   border: 1px solid #666;
   border-radius: 4px;
 }
 
-.container-matricula-name{
+.container-matricula-name {
   gap: 3px;
 }
 
-.container-all label, span{
+.container-all label,
+span {
   font-size: 15px;
   font-weight: 500;
   font-family: "Roboto Condensed";
 }
 
-.container-btn-final{
+.container-btn-final {
   display: flex;
   gap: 10px;
   height: 40;
 }
 
-.btn-final{
+.btn-final {
   display: flex;
   align-items: center;
   width: 140px;
-  background-color: #007D94;
+  background-color: #007d94;
   justify-content: center;
   gap: 3px;
   padding: 10px;
@@ -246,7 +259,11 @@ body {
   cursor: pointer;
 }
 
-.text-btn-final{
+.btn-final:hover{
+  background-color: #0593ac;
+}
+
+.text-btn-final {
   font-family: "Roboto Condensed";
   font-weight: 500;
   font-size: 20px;
@@ -256,20 +273,24 @@ body {
 input[type="date"]::-webkit-calendar-picker-indicator {
   color: rgba(0, 0, 0, 0);
   opacity: 1;
-  background-image: url("../images/img-cadastro/Icone\ Calendario.svg"); 
+  background-image: url("../images/img-cadastro/Icone\ Calendario.svg");
   background-repeat: no-repeat;
   background-position: 100% center;
-  background-size: 15px; 
+  background-size: 15px;
   cursor: pointer;
 }
 
-input{
+input {
   padding: 5px;
 }
 
-.input-checkbox-matricula{
+.input-checkbox-matricula {
   width: 12px;
   height: 12px;
   border: 1px solid #666;
   border-radius: 2px;
+}
+
+.input-checkbox-matricula:hover {
+  content: url(../images/img-cadastro/Vector-verificado.svg);
 }
