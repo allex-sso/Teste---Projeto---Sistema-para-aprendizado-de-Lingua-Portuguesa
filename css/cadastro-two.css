@@ -37,8 +37,12 @@ body {
   background-color: transparent;
 }
 
-svg:hover{
-  stroke: #002c34;
+.teste-lo:hover{
+  content: url(../images/img-navbar-aside/Vector-person-plus.svg);
+}
+
+.hnjlk:hover{
+  content: url(../images/img-navbar-aside/iconoir_home-two.svg);
 }
 
 .home-vertical-one {
