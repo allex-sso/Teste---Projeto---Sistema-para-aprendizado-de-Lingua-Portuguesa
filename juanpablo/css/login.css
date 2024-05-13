@@ -228,6 +228,14 @@ input {
 
 .sign {
   margin-top: 16px;
+  
+}
+
+.sign a {
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 15px;
   background-color: #00798f;
   width: 308px;
   height: 27px;
@@ -236,13 +244,6 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.sign a {
-  color: #ffffff;
-  font-family: "Roboto Condensed";
-  font-weight: 700;
-  font-size: 15px;
 }
 
 .logar-com {
@@ -271,4 +272,15 @@ input {
 .facebook{
   width: 24px;
   height: 24px;
+}
+
+.sign a:hover{
+  background-color: #0d8ba1;
+}
+
+
+.cadastre-se:hover{
+  color: black;
+  background-color: white;
+
 }
