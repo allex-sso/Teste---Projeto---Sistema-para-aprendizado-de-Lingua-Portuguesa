@@ -90,10 +90,6 @@ body {
   color: #666;
 }
 
-.home-vertical-one a:hover{
-  color: #0593ac;
-}
-
 .img-logo {
   padding: 50px 0px 0px 80px;
 }
@@ -156,236 +152,187 @@ body {
 
 #name-destaque {
   font-family: "Roboto Condensed";
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 500;
   color: white;
   background-color: #007d94;
-  width: 966px;
-  height: 58px;
+  width: 932px;
+  height: 39px;
   display: flex;
   align-items: center;
-  padding: 0px 0px 0px 41px;
+  padding: 0px 0px 0px 10px;
 }
 
-.container-pagamento {
+.container-cartao {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 966px;
-
+  width: 932px;
   margin-top: 14px;
+  border: 1px solid rgba(6, 6, 6, .2);
+  padding: 0px 0px 30px 0px;
 }
 
-.linha-pagamento {
+.text-name-destaque{
+  background-color: #1D86CB;
+  width: 357px;
+  height: 39px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.linha-cartao {
   height: 100%;
   width: 1px;
-  background-color: #002c34;
-}
-
-.cards {
-  display: flex;
-  border: 1px solid #666;
-  padding: 46px 20px 55px 13px;
-}
-
-.one-card {
-  gap: 40px;
-}
-
-.segundo-card {
-  gap: 10px;
-}
-
-.terceiro-card {
-  display: flex;
-  border: 1px solid #666;
-  padding: 30px 20px 36px 7px;
-  gap: 95px;
-}
-
-.all-cards {
-  display: flex;
-  flex-direction: column;
-  gap: 34px;
-  color: #666;
+  background-color: #666;
+  opacity: 20%;
+  margin-top: 30px;
 }
 
 .cartao-name {
   display: flex;
-  gap: 10px;
-  align-items: center;
+  flex-direction: column;
+  padding: 40px 25px 15px 25px;
+  gap: 149px;
+  margin-bottom: 130px;
 }
 
-.font-edit-p-one-cards {
+.text-card{
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tam-input-radio{
+  width: 8px;
+  height: 8px;
+}
+
+.font-p-one-text-card{
   font-family: "Roboto Condensed";
-  font-weight: 500;
+  font-weight: 700;
   font-size: 25px;
-  line-height: 29.3px;
+  color: #1D86CB;
 }
 
 .font-edit-p-two-cards {
   font-family: "Roboto Condensed";
   font-weight: 500;
-  font-size: 15px;
-}
-
-.input-tam-edit {
-  width: 23px;
-  height: 23px;
-}
-
-#two-input-checkbox-cards {
-  margin: 20px 0px 0px 0px;
-  padding: 0px 100px 0px 0px;
+  font-size: 20px;
+  color: #666;
 }
 
 /* comecar a parte da direita do pagamento */
 
-.container-servicos {
-  width: 353px;
+.container-cartao-dir{
   display: flex;
   flex-direction: column;
-  gap: 33px;
-  color: #666;
-}
-
-.name-principal {
-  font-family: "Roboto Condensed";
-  font-size: 25px;
-  font-weight: 500;
-  border: 1px solid black;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  padding-left: 19px;
-}
-
-.container-conteudo-servico {
-  border: 1px solid black;
-  font-family: "Roboto Serif";
-  font-size: 15px;
-}
-
-.separator-curso-conteudo {
-  width: 318px;
-  height: 1px;
   margin: auto;
-  background-color: #666;
+  gap: 15px;
 }
 
-.name-curso {
-  margin: 17px 0px 3px 17px;
-  font-family: "Roboto Serif", serif;
-  font-weight: 500;
-  font-size: 15px;
-}
-
-.name-preco-principal {
-  display: flex;
-  gap: 120px;
-  padding: 11px 0px 0px 17px;
-  font-family: "Roboto Serif", serif;
-  font-weight: 500;
-  font-size: 15px;
-}
-
-.name-preco-two {
-  display: flex;
-  gap: 154px;
-  padding: 24px 0px 0px 17px;
-  font-family: "Roboto Serif", serif;
-  font-weight: 500;
-  font-size: 15px;
-}
-
-.name-preco-three {
-  display: flex;
-  gap: 159px;
-  padding: 24px 0px 0px 17px;
-  font-family: "Roboto Serif", serif;
-  font-weight: 500;
-  font-size: 15px;
-}
-
-.name-preco-four {
-  display: flex;
-  gap: 174px;
-  padding: 24px 0px 0px 17px;
-}
-
-.container-conteudo {
-  padding-bottom: 90px;
-}
-
-.cupom-desconto {
-  padding: 0px 0px 0px 17px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.desconto {
-  display: flex;
-  gap: 14px;
-}
-
-.input-text-desconto {
+.input-text-dir{
   border: 1px solid #666666;
   border-radius: 4px;
+  padding-left: 10px;
+  width: 357px;
   height: 27px;
-  width: 194px;
 }
 
-.input-check-desconto {
-  width: 18px;
-  height: 18px;
+.opacao-cartao-dir{
+  display: flex;
+  justify-content: center;
+  width: 357px;
+  height: 64px;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  gap: 40px;
+}
+
+.altura-text-dir{
+  height: 37px;
+}
+
+.container-ano-codigo{
+  display: flex;
+}
+
+.input-text-two-dir{
+  width: 177px;
+  height: 37px;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.input-text-cvv-dir{
+  width: 177px;
+  height: 37px;
+  border-left: 1px solid #666666;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  border-start-start-radius: 4px;
+  border-end-start-radius: 4px;
+  padding-left: 10px;
+}
+
+.cvv-text-img{
+  display: flex;
+  justify-content: center;
+}
+
+.img-inter{
+  position: relative;
+  right: 20px;
+  border-end-end-radius: 4px;
+  border-top-right-radius: 4px;
+  border-right: 1px solid #666666;
+  padding-right: 5px;
   cursor: pointer;
 }
 
-.valor-total {
+.container-final-cartao{
   display: flex;
-  gap: 132px;
-  padding: 32px 0px 0px 17px;
-}
-
-.btn-servico {
-  background-color: #f58634;
-  width: 115px;
-  height: 40px;
-  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: #1D86CB;
+  width: 357px;
+  height: 39px;
+  gap: 10px;
   font-family: "Roboto Condensed";
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
+  color: white;
   cursor: pointer;
 }
 
-.btn-servico:hover{
-  background-color: #f16e11;
+.container-final-cartao:hover{
+  background-color: #1295ec;
 }
 
-.all-btn-servico {
-  display: flex;
-  gap: 33px;
-  padding: 17px 0px 16px 17px;
+.img-retorno{
+  position: relative;
+  top: 50px;
+  left: 800px;
 }
 
-.one-input-checkbox-cards {
-  margin: auto;
+.text-dir-destaque::placeholder{
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 100%;
 }
 
-.checkout {
-  width: 23px;
-  height: 23px;
-  border: 1px solid #666;
-  border-radius: 2px;
-}
 
-.checkout:hover {
-  content: url(../images/img-pagamento/Vector-verificado.svg);
-}
-
-.teste-two {
-  width: 1px;
-  height: 1px;
-  border: 1px solid black;
+input::placeholder{
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 73%;
 }

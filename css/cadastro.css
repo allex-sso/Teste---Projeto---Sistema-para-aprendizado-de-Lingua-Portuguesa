@@ -37,6 +37,8 @@ body {
   background-color: transparent;
 }
 
+/* hover btn lateral */
+
 .index:hover{
   content: url(../images/img-navbar-aside/iconoir_home-two.svg);
 }
@@ -72,6 +74,8 @@ body {
 .login:hover{
   content: url(../images/img-navbar-aside/Icone\ login-verde.svg);
 }
+
+/* fim hover btn lateral */
 
 .home-vertical-one {
   position: relative;
@@ -150,6 +154,7 @@ body {
 .btn-base p {
   color: white;
 }
+
 .btn-facebook {
   background-color: #335a9e;
   gap: 25px;
@@ -273,78 +278,11 @@ body {
   gap: 3px;
 }
 
-.input-checkbox-matricula {
-  width: 12px;
-  height: 12px;
-  border: 1px solid #666;
-  border-radius: 2px;
-  cursor: pointer;
-}
-
-.input-checkbox-matricula::after {
-  content: "";
-  display: block;
-  background-image: url(../images/img-cadastro/Vector-verificado.svg);
-  width: 10px;
-  height: 10px;
-  background-size: 10px 10px;
-  background-repeat: no-repeat;
-  position: absolute;
-}
-
-.container-two-line {
-  border: 1px solid #666;
-  border-radius: 4px;
-  width: 976px;
-}
-
-.tam-input-nome-curso {
-  width: 600px;
-  height: 27px;
-  border: 1px solid #666;
-  border-radius: 4px;
-}
-
-.tam-input-turma {
-  width: 323px;
-  height: 27px;
-  border: 1px solid #666;
-  border-radius: 4px;
-}
-
-.gap-one-line {
-  margin: 1px 13px 0px 13px;
-  gap: 16px;
-}
-
 .container-all label,
 span {
   font-size: 15px;
   font-weight: 500;
   font-family: "Roboto Condensed";
-}
-
-.tam-input-data {
-  width: 179px;
-  height: 27px;
-  border: 1px solid #666;
-  border-radius: 4px;
-}
-
-.tam-input-sala {
-  width: 440px;
-  height: 27px;
-  border: 1px solid #666;
-  border-radius: 4px;
-}
-
-.gap-two-line {
-  margin: 0px 13px 33px 13px;
-  gap: 16px;
-}
-
-.gap-three-line {
-  gap: 10px;
 }
 
 .container-btn-final {
@@ -361,11 +299,11 @@ span {
   justify-content: center;
   gap: 3px;
   padding: 10px;
-  margin-top: 16px;
+  margin-top: 140px;
   cursor: pointer;
 }
 
-.btn-final:hover {
+.btn-final:hover{
   background-color: #0593ac;
 }
 
@@ -376,16 +314,18 @@ span {
   color: white;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
-  color: rgba(0, 0, 0, 0);
-  opacity: 1;
-  background-image: url("../images/img-cadastro/Icone\ Calendario.svg");
-  background-repeat: no-repeat;
-  background-position: 100% center;
-  background-size: 15px;
-  cursor: pointer;
-}
 
 input {
   padding: 5px;
+}
+
+.input-checkbox-matricula {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #666;
+  border-radius: 2px;
+}
+
+.input-checkbox-matricula:hover {
+  content: url(../images/img-cadastro/Vector-verificado.svg);
 }
