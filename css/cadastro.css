@@ -37,6 +37,46 @@ body {
   background-color: transparent;
 }
 
+/* hover btn lateral */
+
+.index:hover{
+  content: url(../images/img-navbar-aside/iconoir_home-two.svg);
+}
+
+.curso:hover{
+  content: url(../images/img-navbar-aside/Vector-curso-verde.svg);
+}
+
+.cadastro:hover{
+  content: url(../images/img-navbar-aside/Icone\ cadastro-green.svg);
+}
+
+.aluno:hover{
+  content: url(../images/img-navbar-aside/Vectoraluno-verde.svg);
+}
+
+.recurso:hover{
+  content: url(../images/img-navbar-aside/Vector-feedback-verde.svg);
+}
+
+.pagamento:hover{
+  content: url(../images/img-navbar-aside/Vector-money\ \(1\).svg);
+}
+
+.telefone:hover{
+  content: url(../images/img-navbar-aside/Group-telefone-verde.svg);
+}
+
+.acesso-restrito:hover{
+  content: url(../images/img-navbar-aside/Vectoracesso-restrito-verde.svg);
+}
+
+.login:hover{
+  content: url(../images/img-navbar-aside/Icone\ login-verde.svg);
+}
+
+/* fim hover btn lateral */
+
 .home-vertical-one {
   position: relative;
   display: flex;
@@ -50,6 +90,10 @@ body {
 
 .home-vertical-one a {
   color: #666;
+}
+
+.home-vertical-one a:hover{
+  color: #0593ac;
 }
 
 .img-logo {
@@ -270,15 +314,6 @@ span {
   color: white;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
-  color: rgba(0, 0, 0, 0);
-  opacity: 1;
-  background-image: url("../images/img-cadastro/Icone\ Calendario.svg");
-  background-repeat: no-repeat;
-  background-position: 100% center;
-  background-size: 15px;
-  cursor: pointer;
-}
 
 input {
   padding: 5px;
