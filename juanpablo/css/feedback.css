@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 122px 1fr;
+}
+.home-lateral {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 92px;
+  gap: 55px;
+  width: 122px;
+  height: 100%;
+  background-image: linear-gradient(to left, #00829a, #002c34);
+}
+
+.back-mode {
+  background-color: transparent;
+}
+
+.home-vertical-one {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 122px;
+  padding: 27px 0px 0px 0px;
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.home-vertical-one a {
+  color: #666;
+}
+
+.img-logo {
+  padding: 50px 0px 0px 80px;
+}
+
+.home-vertical-one a:hover{
+  color: #0593ac;
+}
+
+.home-vertical-two {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 41px 0px 60px;
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #007d94;
+  height: 58px;
+  align-items: center;
+  color: white;
+}
+
+
+/* hover btn lateral */
+
+.index:hover {
+  content: url(/juanpablo/img-navbar-aside/iconoir_home-two.svg);
+}
+
+.curso:hover {
+  content: url(/juanpablo/img-navbar-aside/Vector-curso-verde.svg);
+}
+
+.cadastro:hover {
+  content: url(/juanpablo/img-navbar-aside/Icone\ cadastro-green.svg);
+}
+
+.aluno:hover {
+  content: url(/juanpablo/img-navbar-aside/Vectoraluno-verde.svg);
+}
+
+.recurso:hover {
+  content: url(/juanpablo/img-navbar-aside/Vector-feedback-verde.svg);
+}
+
+.pagamento:hover {
+  content: url(/juanpablo/img-navbar-aside/Vector-money\ \(1\).svg);
+}
+
+.telefone:hover {
+  content: url(/juanpablo/img-navbar-aside/Group-telefone-verde.svg);
+}
+
+.acesso-restrito:hover {
+  content: url(/juanpablo/img-navbar-aside/Vectoracesso-restrito-verde.svg);
+}
+
+.login:hover {
+  content: url(/juanpablo/img-navbar-aside/Icone\ login-verde.svg);
+}
+
+/* fim hover btn lateral */
+
+.tipo {
+  display: flex;
+  gap: 32px;
+}
+
+.feedback {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.pag-pagamento:hover{
+  color: white;
+}
+
+hr {
+  background-color: #ffffff;
+  width: 1px;
+}
+
+.pag-pagamento {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.direita-obj-profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.img-profile {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 4px solid white;
+  border-radius: 50%;
+}
+
+#font-email {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+#font-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.geral{
+  padding-left: 77px;
+  padding-right:94px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tipo-geral{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tipo{
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-size: 25px;
+    color: #00a65a;
+}
+
+.pai-geral{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teste{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid black;
+  margin-top: 50px;
+  border-radius: 40px;
+  width: 1222px;
+  
+}
+
+.direita-obj-profile-1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.img-profile-1 {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 4px solid #007d94;
+  border-radius: 50%;
+}
+
+#font-name-1 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Roboto Condensed";
+  color: #000000;
+}
+
+#font-email-1 {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Roboto Condensed";
+  color: #000000;
+}
+
+.titulo{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.atencao{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.retorno{
+  margin-top: 50px;
+  margin-left: 1460px;
+}
