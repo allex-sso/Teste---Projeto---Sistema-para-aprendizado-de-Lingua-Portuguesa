@@ -173,6 +173,10 @@ body {
   display: flex;
 }
 
+.pesquisa{
+  cursor: pointer;
+}
+
 .lupa-matricula {
   border: 1px solid black;
   border-top-left-radius: 4px;
@@ -213,9 +217,7 @@ body {
 
 table {
   border-spacing: 0;
-  border: 5px solid #007D94
-  ;
-
+  border: 5px solid #007D94;
 }
 
 .center-text-table {
