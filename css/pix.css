@@ -4,8 +4,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Irish+Grover&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Irish+Grover&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
 * {
   padding: 0;
   margin: 0;
@@ -37,6 +35,46 @@ body {
   background-color: transparent;
 }
 
+/* hover btn lateral */
+
+.index:hover{
+  content: url(../images/img-navbar-aside/iconoir_home-two.svg);
+}
+
+.curso:hover{
+  content: url(../images/img-navbar-aside/Vector-curso-verde.svg);
+}
+
+.cadastro:hover{
+  content: url(../images/img-navbar-aside/Icone\ cadastro-green.svg);
+}
+
+.aluno:hover{
+  content: url(../images/img-navbar-aside/Vectoraluno-verde.svg);
+}
+
+.recurso:hover{
+  content: url(../images/img-navbar-aside/Vector-feedback-verde.svg);
+}
+
+.pagamento:hover{
+  content: url(../images/img-navbar-aside/Vector-money\ \(1\).svg);
+}
+
+.telefone:hover{
+  content: url(../images/img-navbar-aside/Group-telefone-verde.svg);
+}
+
+.acesso-restrito:hover{
+  content: url(../images/img-navbar-aside/Vectoracesso-restrito-verde.svg);
+}
+
+.login:hover{
+  content: url(../images/img-navbar-aside/Icone\ login-verde.svg);
+}
+
+/* fim hover btn lateral */
+
 .home-vertical-one {
   position: relative;
   display: flex;
@@ -52,14 +90,12 @@ body {
   color: #666;
 }
 
-.img-logo {
-  padding: 50px 0px 0px 80px;
+.home-vertical-one a:hover{
+  color: #0593ac;
 }
 
-.pag-pagamento {
-  color: white;
-  font-size: 25px;
-  font-weight: 500;
+.img-logo {
+  padding: 50px 0px 0px 80px;
 }
 
 .home-vertical-two {
@@ -74,6 +110,12 @@ body {
   height: 58px;
   align-items: center;
   color: white;
+}
+
+.pag-pagamento {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .direita-obj-profile {
@@ -102,9 +144,8 @@ body {
 
 /* fim parte menu-lateral e vertical */
 
-/* comeÃ§o do main */
-
-.centralizar-container {
+/* começo do main */
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,164 +153,117 @@ body {
   align-items: center;
   height: calc(100vh - 195px);
 }
-.container {
+
+#name-destaque {
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  background-color: #007d94;
+  width: 932px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 10px;
+}
+
+#name-destaque-two {
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  width: 932px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.container-pix {
+  display: flex;
+  align-items: center;
+  width: 932px;
+  margin-top: 14px;
+  border: 1px solid rgba(6, 6, 6, .2);
+  padding: 0px 0px 30px 0px;
+}
+
+.linha-pix {
+  height: 100%;
+  width: 1px;
+  background-color: #666;
+  opacity: 20%;
+  margin-top: 30px;
+}
+
+.cartao-name {
   display: flex;
   flex-direction: column;
-  width: 1231px;
-  gap: 10px;
-  justify-content: center;
-}
-
-.line-one {
-  display: flex;
-  gap: 10px;
-}
-
-.pesquisa {
-  display: flex;
-}
-
-.pesquisa{
-  cursor: pointer;
-}
-
-.lupa-matricula {
-  border: 1px solid black;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  border-right: none;
-}
-
-.input-text-pesquisa {
-  border: 1px solid black;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border-left: none;
-  padding-left: 12px;
-  font-family: "Roboto Condensed";
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.input-text-pesquisa::placeholder {
-  color: #666;
-  opacity: 50%;
-}
-
-.text-checkbox {
-  display: flex;
-  gap: 5px;
+  padding: 10px;
+  gap: 30px;
   align-items: center;
-  font-family: "Roboto Condensed";
-  font-size: 15px;
-  font-weight: 500;
-  color: #666;
+  margin-bottom: 130px;
 }
 
-.tam-checkbox{
-  width: 15px;
-  height: 15px;
+.img-pix{
+  justify-content: center;
+  margin: 40px;
 }
 
-table {
-  border-spacing: 0;
-  border: 5px solid #007D94;
-}
-
-.center-text-table {
+.text-card{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
-.input-tam{
-  width: 17px;
-  height: 17px;
-}
-
-tr:nth-child(even) {
-  background-color: #D9D9D9; 
-}
-
-.espaco-padding{
-  padding-left: 7px;
-}
-
-tr td{
-  height: 50px;
-}
-
-tr th{
+.font-edit-p-one-cards {
   font-family: "Roboto Condensed";
-  font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.3px;
   color: #666;
 }
 
-td {
-  border-spacing: 0;
+.font-edit-p-two-cards {
   font-family: "Roboto Condensed";
-  font-size: 20px;
   font-weight: 500;
+  font-size: 25px;
   color: #666;
 }
 
-.font-special{
-  font-family: "Roboto";
-  font-size: 15px;
-  font-weight: 500;
-  color: #746E6E;
-  opacity: 73%;
-}
+/* comecar a parte da direita do pagamento */
 
-.btn-final{
-  width: 118px;
-  height: 40px;
-  background-color: #007D94;
-  font-family: "Roboto Condensed";
-  font-size: 20px;
-  font-weight: 500;
-  color: white;
-  display: flex;
-  gap: 5px;
+
+.img-qrcode{
   justify-content: center;
   align-items: center;
+  margin: 0px 0px 0px 120px;
+  width: 460px;
 }
 
-.btn-final img{
-  width: 20px;
-  height: 19px;
-}
-
-.separator-btn-final{
-  display: flex;
-  gap: 24px;
-  padding-left: 20px;
-  padding-top: 14px;
-  height: 74px;
-}
-
-.btn-final:hover{
-  background-color: #0593ac;
+.img-copiar{
   cursor: pointer;
 }
 
-.container-final-cartao{
+.container-copiar{
+  position: relative;
+  left: 380px;
+  top: 244px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #1D86CB;
-  width: 357px;
-  height: 39px;
-  gap: 10px;
+  gap: 6px;
   font-family: "Roboto Condensed";
-  font-weight: 700;
-  font-size: 20px;
-  color: white;
-  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  color: #666;
 }
 
 .img-retorno{
   position: relative;
   top: 50px;
   left: 800px;
-  cursor: pointer;
+}
+
+
+.teste{
+  
 }
