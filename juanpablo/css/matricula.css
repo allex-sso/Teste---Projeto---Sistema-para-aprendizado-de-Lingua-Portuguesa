@@ -267,9 +267,10 @@ td {
   cursor: pointer;
 }
 
-.img-retorno{
+.retorno-space{
   position: relative;
   top: 50px;
   left: 800px;
   cursor: pointer;
 }
+
