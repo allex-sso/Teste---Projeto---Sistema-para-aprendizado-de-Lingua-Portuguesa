@@ -235,3 +235,7 @@ hr {
   margin-top: 50px;
   margin-left: 1460px;
 }
+
+.expandir{
+  cursor: pointer;
+}

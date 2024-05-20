@@ -40,6 +40,42 @@ header{
     height: 30px;
 }
 
+
+.curso:hover {
+    content: url(/juanpablo/img-navbar-aside/Vector-curso-verde.svg);
+  }
+  
+  .cadastro:hover {
+    content: url(/juanpablo/img-navbar-aside/Icone\ cadastro-green.svg);
+  }
+  
+  .aluno:hover {
+    content: url(/juanpablo/img-navbar-aside/Vectoraluno-verde.svg);
+  }
+  
+  .recurso:hover {
+    content: url(/juanpablo/img-navbar-aside/Vector-feedback-verde.svg);
+  }
+  
+  .pagamento:hover {
+    content: url(/juanpablo/img-navbar-aside/Vector-money\ \(1\).svg);
+  }
+  
+  .telefone:hover {
+    content: url(/juanpablo/img-navbar-aside/Group-telefone-verde.svg);
+  }
+  
+  .acesso-restrito:hover {
+    content: url(/juanpablo/img-navbar-aside/Vectoracesso-restrito-verde.svg);
+  }
+  
+  .login:hover {
+    content: url(/juanpablo/img-navbar-aside/Icone\ login-verde.svg);
+  }
+  
+  /* fim hover btn lateral */
+
+
 .logo{
     display: flex;
     width: 1200px;
@@ -64,7 +100,7 @@ header{
     color: #ffffff;
 }
 
-.cadastro{
+.cadastre-se{
     border: 1px solid #29A743;
     background-color: #29A743;
     width: 124px;
@@ -125,4 +161,14 @@ section{
     background-color: #29A743;
     width: 360px;
     text-decoration: none;
+}
+
+.cadastre-se:hover{
+    transform: scale(1.2);
+    transition-duration: 300ms;
+}
+
+.entrar:hover{
+    transform: scale(1.2);
+    transition-duration: 300ms;
 }
