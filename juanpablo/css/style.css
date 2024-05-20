@@ -1,174 +1,228 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html, body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top:24px ;
-    padding-bottom:24px ;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
-.geral{
-    display: flex;
-    gap: 66px;
-    
-    width: 1200px; 
+.geral {
+  display: flex;    
+  width: 1200px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.padrao-menu a{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration:none;
-    font-family: 'Roboto Condensed';
-    font-size: 15px;
-    font-weight: 500;
-    color: #666666;
+.padrao-menu a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-weight: 500;
+  color: #666666;
 }
 
-.padrao-icon{
-    width: 30px;
-    height: 30px;
+.padrao-icon {
+  width: 40px;
+  height: 40px;
 }
 
-
-.curso:hover {
-    content: url(/juanpablo/img-navbar-aside/Vector-curso-verde.svg);
-  }
-  
-  .cadastro:hover {
-    content: url(/juanpablo/img-navbar-aside/Icone\ cadastro-green.svg);
-  }
-  
-  .aluno:hover {
-    content: url(/juanpablo/img-navbar-aside/Vectoraluno-verde.svg);
-  }
-  
-  .recurso:hover {
-    content: url(/juanpablo/img-navbar-aside/Vector-feedback-verde.svg);
-  }
-  
-  .pagamento:hover {
-    content: url(/juanpablo/img-navbar-aside/Vector-money\ \(1\).svg);
-  }
-  
-  .telefone:hover {
-    content: url(/juanpablo/img-navbar-aside/Group-telefone-verde.svg);
-  }
-  
-  .acesso-restrito:hover {
-    content: url(/juanpablo/img-navbar-aside/Vectoracesso-restrito-verde.svg);
-  }
-  
-  .login:hover {
-    content: url(/juanpablo/img-navbar-aside/Icone\ login-verde.svg);
-  }
-  
-  /* fim hover btn lateral */
-
-
-.logo{
-    display: flex;
-    width: 1200px;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 24px;
+.cadastro {
+  width: 54px;
+  height: 43px;
 }
 
-.botoes{
-    display: flex;
-    gap:13px ;
-    font-family: 'Roboto Condensed';
-    font-size: 15px;
-    font-weight: 500;
+.padrao-icon:hover {
+  width: 40px;
+  height: 40px;
+  content: url(/juanpablo/img-verde/botao\ home-\ verde.svg);
 }
 
-.botoes a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #ffffff;
+.cadastro:hover {
+  width: 54px;
+  height: 43px;
+  content: url(/juanpablo/img-verde/botao\ cadastro\ -\ verde.svg);
 }
 
-.cadastre-se{
-    border: 1px solid #29A743;
-    background-color: #29A743;
-    width: 124px;
-    height: 37px;   
+.home {
+  width: 36px;
+  height: 47px;
 }
 
-.entrar{
-    border: 1px solid #007AFD;
-    background-color: #007AFD;
-    width: 124px;
-    height: 37px;
+.home:hover{
+    width: 36px;
+    height: 47px;
+    content: url(/juanpablo/img-verde/home1\ original\ verde.svg);
 }
 
-.teste{
-    background-color: rgb(#007D94);
+.aluno:hover {
+  content: url(/juanpablo/img-verde/botao\ aluno\ -\ verde.svg);
 }
 
-section{
-    background-image: linear-gradient(to left, #00829A, #002C34);
-    height: calc(100vh-112px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.recurso {
+  width: 56px;
+  height: 43px;
 }
 
-.conteudo{
-    padding-left: 82px;
+.recurso:hover {
+  width: 56px;
+  height: 43px;
+  content: url(/juanpablo/img-verde/botao\ recurso\ -\ verde.svg);
 }
 
-.img-principal{
-    height: calc(100vh-112px);
+.pagamento {
+  width: 68px;
+  height: 43px;
 }
 
-.title{
-    text-transform: uppercase;
-    font-family: 'Roboto Condensed';
-    font-size: 50px;
-    font-weight: 700;
-    color: #ffffff;
+.pagamento:hover {
+  width: 68px;
+  height: 43px;
+  content: url(/juanpablo/img-verde/botao\ pagamento\ -\ verde.svg);
 }
 
-.intro{
-    font-family: 'Roboto Condensed';
-    font-size: 30px;
-    font-weight: 400;
-    color: #ffffff;
+.telefone {
+  width: 47px;
+  height: 45px;
 }
 
-.btn{
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    font-family: 'Roboto Condensed';
-    font-size: 25px;
-    font-weight: 700;
-    color: #ffffff;
-    border: 1px solid #29A743;
-    background-color: #29A743;
-    width: 360px;
-    text-decoration: none;
+.telefone:hover {
+  width: 47px;
+  height: 45px;
+  content: url(/juanpablo/img-verde/botao\ contato\ -\ verde.svg);
 }
 
-.cadastre-se:hover{
-    transform: scale(1.2);
-    transition-duration: 300ms;
+.acesso-restrito {
+  width: 95px;
+  height: 42px;
 }
 
-.entrar:hover{
-    transform: scale(1.2);
-    transition-duration: 300ms;
+.acesso-restrito:hover {
+  content: url(/juanpablo/img-verde/botao\ acesso\ -\ verde.svg);
+  width: 95px;
+  height: 42px;
+}
+
+.login {
+  width: 35px;
+  height: 47px;
+}
+
+.login:hover {
+  content: url(/juanpablo/img-verde/botao\ login\ -\ verde.svg);
+  width: 35px;
+  height: 47px;
+}
+
+/* fim hover btn lateral */
+
+.logo {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.botoes {
+  display: flex;
+  gap: 13px;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.botoes a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.cadastre-se {
+  border: 1px solid #29a743;
+  background-color: #29a743;
+  width: 124px;
+  height: 37px;
+}
+
+.entrar {
+  border: 1px solid #007afd;
+  background-color: #007afd;
+  width: 124px;
+  height: 37px;
+}
+
+.teste {
+  background-color: rgb(#007d94);
+}
+
+section {
+  background-image: linear-gradient(to left, #00829a, #002c34);
+  height: calc(100vh-112px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conteudo {
+  padding-left: 82px;
+}
+
+.img-principal {
+  height: calc(100vh-112px);
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: "Roboto Condensed";
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.intro {
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed";
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  border: 1px solid #29a743;
+  background-color: #29a743;
+  width: 360px;
+  text-decoration: none;
+}
+
+.cadastre-se:hover {
+  transform: scale(1.2);
+  transition-duration: 300ms;
+}
+
+.entrar:hover {
+  transform: scale(1.2);
+  transition-duration: 300ms;
 }
