@@ -28,6 +28,42 @@ body {
 }
 
 
+.index:hover {
+  content: url(/juanpablo/img-navbar-aside/iconoir_home-two.svg);
+}
+
+.curso:hover {
+  content: url(/juanpablo/img-navbar-aside/Vector-curso-verde.svg);
+}
+
+.cadastro:hover {
+  content: url(/juanpablo/img-navbar-aside/Icone\ cadastro-green.svg);
+}
+
+.aluno:hover {
+  content: url(/juanpablo/img-navbar-aside/Vectoraluno-verde.svg);
+}
+
+.recurso:hover {
+  content: url(/juanpablo/img-navbar-aside/Vector-feedback-verde.svg);
+}
+
+.pagamento:hover {
+  content: url(/juanpablo/img-navbar-aside/Vector-money\ \(1\).svg);
+}
+
+.telefone:hover {
+  content: url(/juanpablo/img-navbar-aside/Group-telefone-verde.svg);
+}
+
+.acesso-restrito:hover {
+  content: url(/juanpablo/img-navbar-aside/Vectoracesso-restrito-verde.svg);
+}
+
+.login:hover {
+  content: url(/juanpablo/img-navbar-aside/Icone\ login-verde.svg);
+}
+
 .home-vertical-one {
   position: relative;
   display: flex;
@@ -41,6 +77,10 @@ body {
 
 .home-vertical-one a {
   color: #666;
+}
+
+.home-vertical-one a:hover {
+  color: #0593ac;
 }
 
 .img-logo {
