@@ -1,0 +1,543 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 122px 1fr;
+}
+.home-lateral {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 92px;
+  gap: 55px;
+  width: 122px;
+  height: 100%;
+  background-image: linear-gradient(to left, #00829a, #002c34);
+}
+
+.back-mode {
+  background-color: transparent;
+}
+
+.index:hover {
+  content: url(/juanpablo/img-navbar-aside/iconoir_home-two.svg);
+}
+
+.curso:hover {
+  content: url(/juanpablo/img-navbar-aside/Vector-curso-verde.svg);
+}
+
+.cadastro:hover {
+  content: url(/juanpablo/img-navbar-aside/Icone\ cadastro-green.svg);
+}
+
+.aluno:hover {
+  content: url(/juanpablo/img-navbar-aside/Vectoraluno-verde.svg);
+}
+
+.recurso:hover {
+  content: url(/juanpablo/img-navbar-aside/Vector-feedback-verde.svg);
+}
+
+.pagamento:hover {
+  content: url(/juanpablo/img-navbar-aside/Vector-money\ \(1\).svg);
+}
+
+.telefone:hover {
+  content: url(/juanpablo/img-navbar-aside/Group-telefone-verde.svg);
+}
+
+.acesso-restrito:hover {
+  content: url(/juanpablo/img-navbar-aside/Vectoracesso-restrito-verde.svg);
+}
+
+.login:hover {
+  content: url(/juanpablo/img-navbar-aside/Icone\ login-verde.svg);
+}
+
+.home-vertical-one {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 122px;
+  padding: 27px 0px 0px 0px;
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.home-vertical-one a {
+  color: #666;
+}
+
+.home-vertical-one a:hover {
+  color: #0593ac;
+}
+
+.img-logo {
+  padding: 50px 0px 0px 80px;
+}
+
+.home-vertical-two {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 41px 0px 60px;
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #007d94;
+  height: 58px;
+  align-items: center;
+  color: white;
+}
+
+.pag-pagamento {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.direita-obj-profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.img-profile {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 4px solid white;
+  border-radius: 50%;
+}
+
+#font-email {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+#font-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.container-geral {
+  height: calc(100vh - 192px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #666666;
+  border-radius: 22px;
+  width: 1211px;
+  height: 67px;
+  gap: 10px;
+  margin-top: 31px;
+}
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  background-color: #12b981;
+  width: 97px;
+  border-radius: 3px;
+  height: 27px;
+  cursor: pointer;
+}
+
+.pesquisa:hover {
+  background-color: #23c58f;
+}
+
+.pesquisa p {
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+}
+
+.pesquisa-aluno {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.fonte-padrao {
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+  color: #666666;
+}
+
+.pesquisa-aluno input {
+  outline: none;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  width: 134px;
+  height: 27px;
+  padding-left: 5px;
+}
+
+.pesquisa-curso {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.pesquisa-curso select {
+  outline: none;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  width: 167px;
+  height: 27px;
+  padding-left: 5px;
+}
+
+.pesquisa-turma {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.pesquisa-turma select {
+  outline: none;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  width: 107px;
+  height: 27px;
+  padding-left: 5px;
+}
+
+.pesquisa-periodo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.pesquisa-periodo hr {
+  background-color: black;
+  width: 14px;
+  height: 1px;
+}
+
+.pesquisa-periodo input {
+  outline: none;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  width: 104px;
+  height: 27px;
+  padding-left: 5px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  background-image: url("/juanpablo/img-controle/calendario.svg");
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  background-size: 15px;
+  cursor: pointer;
+}
+
+.imagens {
+  display: flex;
+  padding-left: 24px;
+  gap: 10px;
+}
+
+.cursor-img{
+  cursor: pointer;
+}
+
+.cursor-img:hover{
+  background-color: #cfcfcf;
+  border: 0px solid;
+  border-radius: 50%;
+}
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+}
+
+.resultado-previsao {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 25px;
+  color: #666666;
+  padding-top: 9px;
+}
+
+.valor {
+  font-family: "Roboto Flex";
+  font-weight: 600;
+  font-size: 40px;
+  color: #12b981;
+}
+
+.conteudo-geral {
+  display: flex;
+  border: 1px solid #666666;
+  height: 221px;
+  border-radius: 22px;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 13px;
+}
+
+.padrao-rec-desp {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 25px;
+  color: #666666;
+}
+
+.conteudo1 {
+  display: flex;
+  gap: 16px;
+}
+
+.conteudo1 p {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #12b981;
+}
+
+.conteudo2 {
+  display: flex;
+  gap: 165px;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #12b981;
+  padding-top: 15px;
+  padding-bottom: 9px;
+}
+
+.conteudo3 {
+  display: flex;
+  gap: 175px;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #666666;
+}
+
+.conteudo4 {
+  display: flex;
+  gap: 16px;
+}
+
+.conteudo4 p {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #f43f5f;
+}
+
+.conteudo5 {
+  display: flex;
+  gap: 202px;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #f43f5f;
+  padding-top: 15px;
+  padding-bottom: 9px;
+}
+
+.conteudo-saldo {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.saldo {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  color: #666666;
+  padding-bottom: 10px;
+}
+
+.saldo-atual {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #12b981;
+  padding-bottom: 14px;
+}
+
+.preview {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 7px;
+}
+
+.previsao {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+  color: #666666;
+}
+
+.saldo-previsao {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #666666;
+}
+
+.conta {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 25px;
+  color: #000000;
+  padding-bottom: 18px;
+}
+
+.add-conta a {
+  display: flex;
+  align-items: center;
+  border: 1px solid #666666;
+  width: 233px;
+  height: 43px;
+  border-radius: 5px;
+}
+
+.add-conta img {
+  width: 24px;
+  height: 24px;
+  padding-left: 5px;
+  padding-right: 13px;
+}
+
+.add-conta:hover {
+  color: white;
+  transform: scale(1.05);
+  transition-duration: 300ms;
+  background-color: #23c58f;
+}
+
+.add-conta p {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 25px;
+  color: #666666;
+}
+
+.tabelas {
+  border: 1px solid;
+  width: 1213px;
+  border-radius: 22px;
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 20px;
+  color: #666666;
+  border-bottom: 1px solid #666666;
+}
+
+tr {
+  border-bottom: 1px solid #666666;
+  height: 44px;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.separador {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.teste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-top: 5px;
+}
+
+.fonte {
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 20px;
+  border: 1px solid;
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+  background-color: #8b5cf6;
+  color: white;
+  width: 49px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recorrente {
+  display: flex;
+  flex-direction: column;
+}
+
+.recor {
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.mensal {
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.vlr {
+  text-align: center;
+}
+
+.imagens{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fonte-tb-padrao{
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.retorno{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
