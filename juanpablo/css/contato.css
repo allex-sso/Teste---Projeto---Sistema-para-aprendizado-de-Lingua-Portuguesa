@@ -289,6 +289,8 @@ input {
   font-family: "Roboto Condensed";
   font-weight: 700;
   font-size: 15px;
+  width: 100%;
+  text-align: center;
 }
 
 .sign:hover{
