@@ -543,7 +543,7 @@ tr:last-child {
   margin-bottom: 10px;
 }
 
-.imagem {
+/* .imagem {
   width: 65px;
   height: 30px;
   position: relative;
@@ -581,3 +581,90 @@ tr:last-child {
 .imagem:focus .imagem-posterior {
   opacity: 1;
 }
+
+.imagem:not(:focus) .imagem-posterior {
+  background-image: url('/juanpablo/img-controle/Botão\ pago.svg');
+} */
+
+/* 
+ */
+
+
+.teste{
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.teste img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s;
+}
+
+.imagem-anterior {
+  opacity: 1;
+}
+
+.imagem-posterior {
+  opacity: 0;
+}
+
+#toggle1:checked ~ .teste .imagem-anterior {
+  opacity: 0;
+}
+
+#toggle1:checked ~ .teste .imagem-posterior {
+  opacity: 1;
+}
+
+#toggle2:checked ~ .teste .imagem-anterior {
+  opacity: 0;
+}
+
+#toggle2:checked ~ .teste .imagem-posterior {
+  opacity: 1;
+}
+
+#toggle3:checked ~ .teste .imagem-anterior {
+  opacity: 0;
+}
+
+#toggle3:checked ~ .teste .imagem-posterior {
+  opacity: 1;
+}
+
+#toggle4:checked ~ .teste .imagem-anterior {
+  opacity: 0;
+}
+
+#toggle4:checked ~ .teste .imagem-posterior {
+  opacity: 1;
+}
+
+#toggle5:checked ~ .teste .imagem-anterior {
+  opacity: 0;
+}
+
+#toggle5:checked ~ .teste .imagem-posterior {
+  opacity: 1;
+}
+
+#toggle6:checked ~ .teste .imagem-anterior {
+  opacity: 0;
+}
+
+#toggle6:checked ~ .teste .imagem-posterior {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
