@@ -222,6 +222,7 @@ body {
   font-weight: 500;
   font-family: "Roboto";
   color: #007d94;
+  cursor: pointer;
 }
 
 .all-checkout {
@@ -342,4 +343,8 @@ td {
     font-weight: 400;
     font-family: "Roboto";
     color: #666666;
+}
+
+.cursor-img{
+  cursor: pointer;
 }
