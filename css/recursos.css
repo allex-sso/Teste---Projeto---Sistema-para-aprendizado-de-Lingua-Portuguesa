@@ -226,6 +226,10 @@ body {
   gap: 10px;
 }
 
+.cartao-name-one:hover{
+  background-color: #065ba5
+}
+
 .cartao-name-two{
   display: flex;
   justify-content: center;
