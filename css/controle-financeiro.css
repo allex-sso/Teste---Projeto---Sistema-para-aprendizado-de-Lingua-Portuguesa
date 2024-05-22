@@ -1,0 +1,345 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Irish+Grover&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/*menu-lateral e vertical */
+
+body {
+  display: grid;
+  grid-template-columns: 122px 1fr;
+}
+
+.home-lateral {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 92px;
+  gap: 55px;
+  width: 122px;
+  height: 100%;
+  background-image: linear-gradient(to left, #00829a, #002c34);
+}
+
+.back-mode {
+  background-color: transparent;
+}
+
+/* hover btn lateral */
+
+.index:hover {
+  content: url(../images/img-navbar-aside/iconoir_home-two.svg);
+}
+
+.curso:hover {
+  content: url(../images/img-navbar-aside/Vector-curso-verde.svg);
+}
+
+.cadastro:hover {
+  content: url(../images/img-navbar-aside/Icone\ cadastro-green.svg);
+}
+
+.aluno:hover {
+  content: url(../images/img-navbar-aside/Vectoraluno-verde.svg);
+}
+
+.recurso:hover {
+  content: url(../images/img-navbar-aside/Vector-feedback-verde.svg);
+}
+
+.pagamento:hover {
+  content: url("../images/img-navbar-aside/Vector-money\ \(1\).svg");
+}
+
+.telefone:hover {
+  content: url(../images/img-navbar-aside/Group-telefone-verde.svg);
+}
+
+.acesso-restrito:hover {
+  content: url(../images/img-navbar-aside/Vectoracesso-restrito-verde.svg);
+}
+
+.login:hover {
+  content: url(../images/img-navbar-aside/Icone\ login-verde.svg);
+}
+
+/* fim hover btn lateral */
+
+.home-vertical-one {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 122px;
+  padding: 27px 0px 0px 0px;
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.home-vertical-one a {
+  color: #666;
+}
+
+.home-vertical-one a:hover {
+  color: #0593ac;
+}
+
+.img-logo {
+  padding: 50px 0px 0px 80px;
+}
+
+.text-home-vertical-two {
+  display: flex;
+  gap: 60px;
+}
+
+.home-vertical-two {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 41px 0px 60px;
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #007d94;
+  height: 58px;
+  align-items: center;
+  color: white;
+}
+
+.one-text-navbar {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.direita-obj-profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#font-email {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+#font-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* fim parte menu-lateral e vertical */
+
+/* começo do main */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: calc(100vh - 195px);
+  gap: 32px;
+}
+
+.limited {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.all-container-one {
+  display: flex;
+  align-items: center;
+  padding: 12px 25px 12px 10px;
+  border: 1px solid #b0b0b0;
+  border-radius: 22px;
+  gap: 15px;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-weight: 500;
+  color: #666;
+}
+
+.flex-two {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.name-destaque {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #12b981;
+  width: 97px;
+  height: 27px;
+  cursor: pointer;
+  gap: 10px;
+  border: 1px solid #12b981;
+  border-radius: 3px;
+}
+
+.name-destaque:hover {
+  background-color: #09aa74;
+}
+
+.text-name-destaque {
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  font-weight: 500;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  background-image: url("../images/img-cadastro/Icone\ Calendario.svg");
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  background-size: 15px;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+}
+
+.input-tam-one {
+  width: 134px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
+
+}
+
+.all-container-one input[type="text"]::placeholder {
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+  color: #666;
+  opacity: 50%;
+}
+
+.all-container-one select {
+  font-family: "Roboto Condensed";
+  font-weight: 500;
+  font-size: 15px;
+  color: #66666686;
+}
+
+.tam-select-one {
+  width: 167px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+.tam-select-two {
+  width: 107px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+.input-date {
+  width: 110px;
+  height: 27px;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+.linha-center {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.linha {
+  background-color: #746e6e;
+  width: 14px;
+  height: 1px;
+}
+
+.separador-img{
+  display: flex;
+  gap: 10px;
+}
+
+.cursor-img{
+  cursor: pointer;
+}
+
+.cursor-img:hover{
+  background-color: #cfcfcf;
+  border: 0px solid;
+  border-radius: 50%;
+}
+
+.bloco-grafico-one {
+  width: 585px;
+  height: 297px;
+  border: 1px solid #b0b0b0;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.bloco-grafico-two {
+  width: 585px;
+  height: 297px;
+  border: 1px solid #b0b0b0;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flex-blocos {
+  display: flex;
+  gap: 20px;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-weight: 500px;
+  color: #666;
+}
+
+.centralizar-grafico-one{
+  margin: auto;
+}
+
+.centralizar-grafico {
+  justify-content: center;
+  align-items: center;
+}
+
+.label-grafico-one{
+  padding-right: 320px;
+}
+
+.label-grafico{
+  padding-right: 330px;
+}
+
+form label{
+  color: #002c34;
+  cursor: pointer;
+}
+/* comecar a parte do resultados da pesquisa (table) */
